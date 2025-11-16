@@ -1,0 +1,10 @@
+# pip install -r /workspaces/TAF_Optimizacion_Prototipo/vrp-prototype/requirements.txt
+
+pandas
+numpy
+streamlit
+pulp
+folium
+streamlit-folium
+openpyxl
+
