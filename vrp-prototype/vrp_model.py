@@ -8,23 +8,7 @@ def solve_cvrp(distance_matrix: np.ndarray,
                vehicle_capacity: float,
                time_limit: int = None,
                solver_msg: bool = False) -> Dict[str, Any]:
-    """
-    Resuelve CVRP con PuLP (MTZ subtour elimination).
-    Params:
-        distance_matrix: NxN numpy array (km)
-        demands: list length N (demanda en cada nodo, nodo 0 = deposito, demanda=0)
-        vehicle_count: K (número máximo de vehículos)
-        vehicle_capacity: Q
-        time_limit: segundos para el solver (CBC), None = sin límite
-        solver_msg: mostrar mensajes del solver
-    Returns:
-        dict con keys:
-            'status': solution status
-            'objective': valor objetivo (distancia)
-            'x': dict (i,j) -> 0/1
-            'u': dict i -> valor u_i
-            'routes': list de rutas (cada ruta es lista de nodos empezando y terminando en 0)
-    """
+
     n = distance_matrix.shape[0]
     nodes = list(range(n))
 

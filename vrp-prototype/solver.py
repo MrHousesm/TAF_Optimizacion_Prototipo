@@ -47,5 +47,4 @@ def _route_length(route, dist_matrix):
     return total
 
 if __name__ == "__main__":
-    # ejemplo de uso
     res, df_out = run_from_file("/workspaces/TAF_Optimizacion_Prototipo/vrp-prototype/examples/pedidos.xlsx", vehicle_count=2, vehicle_capacity=10.0, time_limit=30)

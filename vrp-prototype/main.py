@@ -1,4 +1,4 @@
-# streamlit run /workspaces/TAF_Optimizacion_Prototipo/vrp-prototype/main.py
+# streamlit run main.py
 import streamlit as st
 import pandas as pd
 from data_loader import load_data
