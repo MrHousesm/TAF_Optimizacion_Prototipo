@@ -32,10 +32,15 @@ El resultado final incluye:
 
 ## Estructura del Proyecto
 /vrp-prototype
+
 │── examples/TAF.xlsx # Ejemplo de archivo de entrada
+
 │── main.py # App principal de Streamlit
+
 │── distance_matrix.py # Función de Haversine + matriz de distancias
+
 │── requirements.txt # Dependencias del proyecto
+
 │── vrp_solver.py # Modelo matemático del VRP (PuLP)
 
 
@@ -58,10 +63,13 @@ El archivo debe tener las siguientes columnas:
 pip install -r requirements.txt
 
 Para **lanzar** la app web:
+
 cd vrp-prototype
+
 streamlit run main.py
 
 Luego **abrir** el navegador en:
+
 http://localhost:8501
 
 
