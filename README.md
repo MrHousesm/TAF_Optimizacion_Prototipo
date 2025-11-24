@@ -1,4 +1,4 @@
-# VRP Optimizer – Vehicle Routing Problem con Streamlit
+# CVRP Optimizer – Vehicle Routing Problem con Streamlit
 
 Este proyecto implementa un prototipo funcional para resolver el **Problema de Enrutamiento de Vehículos (VRP)** con capacidades utilizando Python.  
 Incluye:
